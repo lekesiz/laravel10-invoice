@@ -16,7 +16,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [InvoiceController::class, 'index']);
-Route::get('/a', [InvoiceController::class, 'index']);
-Route::get('/b', [InvoiceController::class, 'index']);
-Route::get('/c', [InvoiceController::class, 'index']);
-Route::get('/d', [InvoiceController::class, 'index']);
